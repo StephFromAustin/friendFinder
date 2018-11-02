@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Bootstrap JavaScript Link (bundle of three)-->
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title> Friend Finder </title>
 </head>
 <body>
@@ -69,9 +71,9 @@
                                 <option value='5'>5 (Strongly Agree)</option>
                             </select>
                         </div>
+                    <!-- QUESTION 4 -->
 
-
-
+                    <button class="surveySubmit">Submit</button>
 
 
                     </div>
@@ -79,6 +81,36 @@
             </div>
         </div>
     </div>
+        <script>
+            $(".surveySubmit").on("click", function(event) {
+               event.preventDefault();
+
+               let user = {
+                   name: $("#name").val().trim(),
+                   photo: $("#picture").val().trim(),
+                   about: $("#aboutyou").val().trim(),
+                   scores: [
+                    $("#Q1").val().trim(),
+                    $("#Q2").val().trim(),
+                    $("#Q3").val().trim()
+                   ]
+               }
+
+               $.post("/api/friends", user, function(result) {
+                console.log(result) // <<< The result is the matching friend object
+
+                let matchName = result.name;
+                let matchPhoto = result.photo;
+
+                $("#matchName").text(matchName)
+                $("#matchedImg").attr("src", matchPhoto)
+
+
+                // $("#myModal").modal("show")
+               })
+            })
+
+        </script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 // DEPENDENCIES 
 const express = require('express'); // NODE.JS SERVER EXPRESS FRAMEWORK 
 const path = require('path');
+const bodyParser = require('body-parser');
 // CONFIGURE EXPRESS 
 const app = express();
 

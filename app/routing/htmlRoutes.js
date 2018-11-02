@@ -5,10 +5,10 @@ const path = require('path');
 module.exports = function (app) {
     // HTML GET REQUEST.
     //DIRECT USER TO HOME PAGE AND SURVEY PAGE.
-    app.get('/home', function (req, res) { // ASK!!! COULD HOME JUST BE '/'?
-        res.sendFile(path.join(_dirname + '/../public/home.html'));
+    app.get('/', function (req, res) { // ASK!!! COULD HOME JUST BE '/'?
+        res.sendFile(path.join(__dirname + '/../public/home.html'));
     });
     app.get('/survey', function (req, res) {
-        res.sendFile(path.join(_dirname + '/../public/survey/html'));
+        res.sendFile(path.join(__dirname + '/../public/survey.html'));
     })
 }
