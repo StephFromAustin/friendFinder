@@ -1,8 +1,8 @@
 // DEPENDENCIES 
 const express = require('express'); // NODE.JS SERVER EXPRESS FRAMEWORK 
-const path = require ('path');
+const path = require('path');
 // CONFIGURE EXPRESS 
-const app = express ();
+const app = express();
 
 // SET PORT FOR APPLICATION 
 const PORT = process.env.PORT || 8080;
@@ -18,7 +18,7 @@ require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
 // LISTEN FUNCTION: START SERVER TO BEGIN LISTENING TO CLIENT REQUESTS 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
     // THIS WILL LOG ON SERVER SIDE WHEN SERVER HAS INITIATED 
     console.log("Server is listening on:" + PORT);
 
