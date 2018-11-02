@@ -1,3 +1,4 @@
+// ARRAY OF DATA 
 let friends = [
     {
         'name': 'Milton',
