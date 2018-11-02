@@ -17,3 +17,9 @@ app.use(bodyParser.json());
 require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
+// LISTEN FUNCTION: START SERVER TO BEGIN LISTENING TO CLIENT REQUESTS 
+app.listen(PORT, function() {
+    // THIS WILL LOG ON SERVER SIDE WHEN SERVER HAS INITIATED 
+    console.log("Server is listening on:" + PORT);
+
+});
