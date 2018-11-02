@@ -5,7 +5,7 @@ const path = require ('path');
 module.exports = function (app){
       // HTML GET REQUEST.
         //DIRECT USER TO HOME PAGE AND SURVEY PAGE.
-    app.get('/home', function (req, res){
+    app.get('/home', function (req, res){ // ASK!!! COULD HOME JUST BE '/'?
         res.sendFile(path.join(_dirname + '/../public/home.html'));
     });
     app.get('/survey', function (req, res){
