@@ -36,11 +36,11 @@ module.exports = function (app) {
                 }
             }
         }
-
+// trying to see if this works erase me later :D
         res.json(match)
         // PUSH AND RESPONSE FROM JSON 
         friends.push(userRes);
         // res.json({ SHOULD USER MATCH VAIRABLES GO HERE?})
-
+        res.json({matchname: matchName, matchpicture: matchPicture, matchbio: matchBio});
     })
 };
