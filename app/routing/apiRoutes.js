@@ -41,6 +41,6 @@ module.exports = function (app) {
         // PUSH AND RESPONSE FROM JSON 
         friends.push(userRes);
         // res.json({ SHOULD USER MATCH VAIRABLES GO HERE?})
-        res.json({matchname: matchName, matchpicture: matchPicture, matchbio: matchBio});
+        // res.json({matchname: matchName, matchpicture: matchPicture, matchbio: matchBio});
     })
 };
