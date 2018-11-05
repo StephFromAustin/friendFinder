@@ -3,6 +3,7 @@ let friends = [
     {
         'name': 'Milton',
         'photo': 'https://i.redd.it/0df96bwz24b11.jpg',
+        'bio': 'Here is a bio',
         'scores': [2, 1, 2, 1, 1, 3, 4, 5, 1, 2]
     },
     {
@@ -13,6 +14,7 @@ let friends = [
     {
         'name': 'Dwight',
         'photo': 'https://upload.wikimedia.org/wikipedia/en/c/cd/Dwight_Schrute.jpg',
+        'bio': 'beets, beets, beets',
         'scores': [4, 3, 2, 1, 1, 2, 3, 4, 5, 5]
     }
 ]
