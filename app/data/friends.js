@@ -22,7 +22,7 @@ let friends = [
         'name': 'Dale Gribble',
         'photo': 'https://thumbs.gfycat.com/DirectReflectingGiantschnauzer-small.gif',
         'bio': 'Dale Gribble is husband to Nancy (Arlins, TX favorite weathergirl) and father to Joseph Gribble. Dale is the proud owner of Dales Dead Bug. Dale enjoys constructing conspiracy theories, killing bugs, preparing for the apocolypse, smoking cigarettes, and drinking Alamo Beer.',
-        'scores': [4,3,1,5,1,1,5,5,5,1]
+        'scores': [4, 3, 1, 5, 1, 1, 5, 5, 5, 1]
     },
 ]
  
