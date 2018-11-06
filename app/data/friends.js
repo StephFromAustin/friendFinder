@@ -17,7 +17,13 @@ let friends = [
         'photo': 'https://uproxx.files.wordpress.com/2015/06/bobby-hill-chips.jpg?quality=95&w=650',
         'bio': 'Bobby is the only child of Hank and Peggy Hill. Bobby is a budding prop comic, fierce purse protector, and natural rodeo clown. Bobby loves snacks, his family, and his neighbor Connie Souphanousinphone, Jr.',
         'scores': [1, 5, 4, 3, 4, 3, 2, 3, 4, 5]
-    }
+    },
+    {
+        'name': 'Dale Gribble',
+        'photo': 'https://thumbs.gfycat.com/DirectReflectingGiantschnauzer-small.gif',
+        'bio': 'Dale Gribble is husband to Nancy (Arlins, TX favorite weathergirl) and father to Joseph Gribble. Dale is the proud owner of Dales Dead Bug. Dale enjoys constructing conspiracy theories, killing bugs, preparing for the apocolypse, smoking cigarettes, and drinking Alamo Beer.',
+        'scores': [4,3,1,5,1,1,5,5,5,1]
+    },
 ]
  
 module.exports = friends;
