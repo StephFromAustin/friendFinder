@@ -33,10 +33,16 @@ h4 {
 }
 .surveyBody{
     font-family: Pangolin, cursive;
+    text-align: center;
+  
+
 }
 
 .form-group {
-    font-family: Nixie One, cursive, 800;
+    font-family: Nixie One, cursive 800;
+    text-align: center;
+    font-size: 25px;
+
 }
 
 .friendLink {
@@ -45,4 +51,5 @@ h4 {
 
 .surveyBody {
     background-image: url("https://images.wikia.nocookie.net/__cb15/kingofthehill/images/5/50/Wiki-background");
+    background-attachment: fixed;
 }
