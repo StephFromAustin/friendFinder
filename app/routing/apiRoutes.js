@@ -22,7 +22,7 @@ module.exports = function (app) {
         // Moving through friends array from friend.js
         for (let i = 0; i < friends.length; i++){
             // initializing best total difference
-            let totalDiff = 100;
+            let totalDiff = 10;
             // for loop to compare the individual scores per friend
             for (let j = 0; j < userScores.length; j++) {
                 // initialize the current different
