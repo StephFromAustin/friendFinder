@@ -1,11 +1,44 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css?family=Bangers|Montserrat:400,700|Nixie+One|Pangolin|Playfair+Display:400,700,900|Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Montserrat:400,700,800,900|Nixie+One|Pangolin|Playfair+Display:400,700,900|Sigmar+One');
 
 body {
-    background-image: url("https://images.wikia.nocookie.net/__cb15/kingofthehill/images/5/50/Wiki-background");
+    background-image: url("http://images2.fanpop.com/image/photos/12500000/Wallpaper-from-Russian-funs-king-of-the-hill-12529187-1440-900.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+
+
+   
 }
 
 .jumbotron {
+    margin-top: 30%;
+    margin-left: 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     text-align: center;
     font-family: Pangolin, cursive;
+    background-image: url('https://clipart.info/images/ccovers/1520611248grass-png-cartoon.png');
+    width: 50%;
+    height: 50%;
+    font-size: 5px;
+}
+
+.display-4 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+.surveyBody{
+    font-family: Pangolin, cursive;
+}
+
+.form-group {
+    font-family: Nixie One, cursive, 800;
+}
+
+.friendLink {
+    color: black;
 }
