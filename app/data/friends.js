@@ -24,6 +24,19 @@ let friends = [
         'bio': 'Dale Gribble is husband to Nancy (Arlins, TX favorite weathergirl) and father to Joseph Gribble. Dale is the proud owner of Dales Dead Bug. Dale enjoys constructing conspiracy theories, killing bugs, preparing for the apocolypse, smoking cigarettes, and drinking Alamo Beer.',
         'scores': [4, 3, 1, 5, 1, 1, 5, 5, 5, 1]
     },
+    {
+        'name': 'Boomhauer',
+        'photo': 'https://alchetron.com/cdn/boomhauer-fd3de215-db16-44f3-89fb-0e5a1a538e8-resize-750.png',
+        'bio': 'Boomhauer is fast-paced talker and neighbor of Hank, Dale, and Bill. Boomhauer spends his spare time drinking Alamo Beer  and wearing animal print bikinis briefs. Boomhauer is a single bachelor that keeps his home emacculate and always comfortable for the ladies.',
+        'scores': [4, 3, 1, 2, 1, 1, 5, 5, 5, 3]
+    },
+    {
+        'name': 'Bill Dauterive',
+        'photo': 'http://i.imgur.com/C7gAVgK.png',
+        'bio': 'Army Sergeant William Fontaine de La Tour Dauterive (better known as Bill) is the Arlen, TX all time career touchdown record holder. He is once divorced but did, for a brief period of time, dated former Texas governor Ann Richards. Bill, while sort of mess, has one of the kindest hearts in Arlen and never turns down a good time with friends.',
+        'scores': [4, 4, 5, 3, 2, 1, 5, 5, 5, 4]
+    },
+    
 ]
  
 module.exports = friends;
