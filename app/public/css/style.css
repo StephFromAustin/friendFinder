@@ -1,3 +1,11 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Bangers|Montserrat:400,700|Nixie+One|Pangolin|Playfair+Display:400,700,900|Sigmar+One');
+
 body {
     background-image: url("https://images.wikia.nocookie.net/__cb15/kingofthehill/images/5/50/Wiki-background");
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: Pangolin, cursive;
 }
