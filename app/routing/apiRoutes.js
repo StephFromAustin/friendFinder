@@ -20,20 +20,23 @@ module.exports = function (app) {
         // value = value + 5 same as above
         // would a for loop work here? goes through friends.length and then userRes.length? NEED MATH SYNTAX!
         // Moving through friends array from friend.js
+        let maxDiff = null;
+
         for (let i = 0; i < friends.length; i++){
             // initializing best total difference
-            let totalDiff = 10;
             // for loop to compare the individual scores per friend
+            let currentDiff = 0;
             for (let j = 0; j < userScores.length; j++) {
                 // initialize the current different
-                let currentDiff = 0;
                 // gather current difference by comparing the scores of the current friend and the scores of the user
                 currentDiff += Math.abs(friends[i].scores[j] - parseInt(userScores[j]))
                 // if the current difference (in the scope of this for loop) is less than the total difference than that is the better match 
-                if (currentDiff < totalDiff) {
-                    // Setting match equal to the friend that we are currently looking at in the for loop
-                    match = friends[i]
-                }
+            }
+            // || = or
+            if (!maxDiff || currentDiff < maxDiff) {
+                maxDiff = currentDiff
+                // Setting match equal to the friend that we are currently looking at in the for loop
+                match = friends[i]
             }
         }
 // trying to see if this works erase me later :D
