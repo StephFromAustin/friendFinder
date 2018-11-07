@@ -19,10 +19,10 @@ Friend Finder implements friend matching based on the user's responses to a ten 
 Friend Finder application is meant to simulate a simple dating app. The application is implemented using a Node.js and Express server on the back end and bootstrap html applications on the front end. 
 
 ## **Technologies Used** 
--JavaScript, 
--jQuery, 
--HTML, 
--Bootstrap,
--Node.Js, 
--Inquirer, 
--Express.Js,
+- JavaScript, 
+- jQuery, 
+- HTML, 
+- Bootstrap,
+- Node.Js, 
+- Inquirer, 
+- Express.Js,
